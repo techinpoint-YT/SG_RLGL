@@ -1,2 +1,56 @@
-node_modules/
-.env
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Minecraft
+/world/
+/world_nether/
+/world_the_end/
+/plugins/
+/logs/
+server.properties
+bukkit.yml
+spigot.yml
+paper.yml
+eula.txt
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+usernamecache.json
+whitelist.json
+
+# Build artifacts
+*.jar
+!*-sources.jar
+!*-javadoc.jar
+
+# Temporary files
+*.tmp
+*.temp
+*~

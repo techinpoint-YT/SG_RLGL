@@ -1,0 +1,47 @@
+# SG_RLGL Configuration File
+# Red Light Green Light Game Settings
+
+# Location settings
+locations:
+  lobby: {}
+  guestLobby: {}
+  finish: {}
+
+# Player roles
+roles:
+  admins: []
+  guests: []
+  winners: []
+
+# Game state
+game:
+  active: false
+  state: "GREEN"
+  
+# Game settings
+settings:
+  # Lightning strike on rule violation
+  lightning-on-violation: true
+  # Ban players who move during red light
+  ban-on-violation: true
+  # Broadcast messages to all players
+  broadcast-messages: true
+  # Title display duration (in ticks)
+  title-display-duration: 40
+  # Title fade in/out duration (in ticks)
+  title-fade-duration: 5
+
+# Messages
+messages:
+  prefix: "&6[SG]&r "
+  start: "&aGame Starts! Red Light Green Light begins now!"
+  green: "&aGreen Light - You can move!"
+  red: "&cRed Light - STOP MOVING!"
+  banned: "&cYou moved during Red Light and have been banned!"
+  winner: "&aYou reached the finish line! You're safe!"
+  game-stopped: "&eGame has been stopped."
+  location-set: "&aLocation has been set successfully."
+  player-not-found: "&cPlayer not found or not online."
+  no-permission: "&cYou don't have permission to use this command."
+  game-not-active: "&cGame is not currently active."
+  invalid-usage: "&cInvalid usage. Use /sg help for commands."
