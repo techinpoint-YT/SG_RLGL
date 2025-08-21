@@ -1,0 +1,13 @@
+name: SG_RLGL
+main: com.king.sgrlgl.SG_RLGL
+version: 1.0.0
+api-version: '1.21'
+author: King
+commands:
+  sg:
+    description: Squid Game Red Light Green Light controller
+    usage: /sg help
+    permission: sgrlgl.use
+permissions:
+  sgrlgl.use:
+    default: op

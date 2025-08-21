@@ -1,0 +1,17 @@
+locations:
+  lobby: {}
+  guestLobby: {}
+  finish: {}
+roles:
+  admins: []
+  guests: []
+  winners: []
+game:
+  active: false
+  state: "GREEN"
+messages:
+  prefix: "&6[SG]&r "
+  start: "&aGame Starts"
+  green: "&aGreen Light"
+  red: "&cRed Light"
+  banned: "&cMoved during Red Light"
